@@ -1,0 +1,22 @@
+.section-04{
+    background-color: var(--section-color-02);
+    height: 815px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.project-img{
+    width: 10rem;
+}
+
+.section-04-wrapper-projects{
+    box-sizing: border-box;
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 25%;
+}

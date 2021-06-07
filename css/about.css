@@ -1,0 +1,20 @@
+.section-02{
+    background-color: var(--section-color-02);
+    height: 815px;
+    box-sizing: border-box;
+}
+
+.section-02-container-about{
+    text-align: center;
+}
+
+.section-02-text-about{
+    position: relative;
+    top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: var(--primary-color);
+    text-align: justify;
+    padding: 0 150px;
+}
+

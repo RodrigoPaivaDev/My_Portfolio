@@ -1,0 +1,10 @@
+.title{
+    font-family: "PT Sans", sans-serif;
+    color: var(--primary-color);
+    font-size: 150px;
+    position: relative;
+    top: 100px;
+    opacity: 10%;
+    text-align: center;
+}
+

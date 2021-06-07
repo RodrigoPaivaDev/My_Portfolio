@@ -1,0 +1,44 @@
+header{
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*centralizar elemento*/
+    position: fixed; /*Editei aqui*/
+    width: 100%;
+    z-index: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: var(--primary-color);
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.navigation-menu{
+    text-align: right;
+}
+
+.menu{
+    font-size: 20px;
+    height: 60px;
+    text-decoration: none;
+    color: var(--primary-color);
+    line-height: 60px;
+    padding: 0 20px;
+    display: inline-block;  /*nao ocupa a linha toda e pode definir h e w*/
+    transition: border-bottom .4s ease;
+    border-bottom: 2px solid transparent;
+  
+}
+
+.menu:hover{
+    border-bottom: 2px solid var(--second-color);
+    padding: 0 20px;
+    
+}
+
+

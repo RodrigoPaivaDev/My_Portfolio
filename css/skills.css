@@ -1,0 +1,49 @@
+.section-03{
+    background-color: var(--section-color-01);
+    height: 815px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.section-03-wrapper-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    top: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateX(5%);
+}
+
+.section-03-wrapper-skills .item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 40px;
+}
+
+/*HTML logo configuration*/
+.section-03-html-img{
+    width: 5rem;
+}
+
+
+.section-03-img{
+    width: 4.5rem;
+}
+
+.section-03-title{
+    font-family: "PT Sans", sans-serif;
+    margin-left: 15px;
+    color: var(--primary-color);
+    font-size: 18px;
+    display: inline-block;
+}
+
+
