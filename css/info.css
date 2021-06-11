@@ -1,15 +1,16 @@
 .section-01{
     background-color: var(--section-color-01);
-    height:815px; 
+    height:100vh; 
+    box-sizing: border-box;
 }
 
 
 
 .section-01-img{
     position: absolute;
-    width: 100%;
-    height: 750px;
-    top: 62px; 
+    width: auto;
+    height: 100vh;
+    top: auto; 
     opacity: 13%;
    
 }
@@ -64,7 +65,7 @@
     background: none;
     color: var(--primary-color);
     border: 3px solid var(--second-color);
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 15px 20px;
     line-height: 2.5em;
     text-align: center;

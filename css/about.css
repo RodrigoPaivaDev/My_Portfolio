@@ -1,6 +1,6 @@
 .section-02{
     background-color: var(--section-color-02);
-    height: 815px;
+    height: 100vh;
     box-sizing: border-box;
 }
 
