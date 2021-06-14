@@ -1,0 +1,32 @@
+.section-05{
+    background-color: var(--section-color-01);
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+    height: 500px;
+    width: 100%;
+}
+
+.contact input, textarea{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.contact input, textarea{
+    background: none;
+    color: var(--second-color);
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 3px solid var(--header-color);
+}

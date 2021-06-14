@@ -1,0 +1,31 @@
+.footer{
+    background-color: var(--section-color-01);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h3, p{
+    margin: 0;
+    padding: 20px;
+    color: var(--second-color);
+    align-self: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+}
+
+
+.redes-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-icons img{
+    padding: 0 20px;
+}
+
+hr{
+    color: var(--header-color);
+}
