@@ -3,6 +3,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    
 }
 
 .footer h3, p{
@@ -28,4 +29,10 @@
 
 hr{
     color: var(--header-color);
+}
+
+@media screen and (max-width: 700px) {
+    .footer{
+        padding-top: 30px;
+    }
 }

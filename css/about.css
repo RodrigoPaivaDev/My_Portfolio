@@ -13,12 +13,23 @@
     font-size: 20px;
     color: var(--primary-color);
     text-align: justify;
-    width: 40%;
-    border-radius: 4px;
+    width: 70%;
 }
 
 
 .section-02-container-about{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .section-02-text-about{
+        width: 90%;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    .section-02{
+        height: 170vh;
+    }
 }

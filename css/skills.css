@@ -1,6 +1,6 @@
 .section-03{
     background-color: var(--section-color-01);
-    height: 100vh;
+    height: 130vh;
     text-align: center;
     box-sizing: border-box;
 }
@@ -15,17 +15,21 @@
     max-width: 500px;
     height: auto;
     position: relative;
-    top: 20%;
+    top: 15%;
     margin-right: auto;
     margin-left: auto;
-    transform: translateX(5%);
 }
 
 .section-03-wrapper-skills .item{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 200px;
-    padding-bottom: 40px;
+    height: 150px;
+    border: 2px solid var(--second-color);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 5px var(--second-color);
 }
 
 /*HTML logo configuration*/
@@ -38,6 +42,7 @@
     width: 4.5rem;
 }
 
+
 .section-03-title{
     font-family: "PT Sans", sans-serif;
     margin-left: 15px;
@@ -46,4 +51,30 @@
     display: inline-block;
 }
 
+@media screen and (max-width: 560px) {
+    .section-03-wrapper-skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        top: 10%;
+    }
+
+    .section-03{
+        height: 250vh;
+    }
+
+    .section-03-wrapper-skills .item:not(:first-child){
+        margin-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-height: 420px) {
+    .section-03{
+        height: 250vh;
+    }
+}
 
