@@ -12,19 +12,25 @@
     width: 100%;
     height: 100vh;
     top: auto; 
-    opacity: 13%;
-   
+    opacity: 15%;
 }
 
 
 
 .section-01-info{
-    padding-top: 100px;
-    padding-left: 230px;
-    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    max-width: 500px;
+    height: auto;
 }
 
 .section-01-info h3{
+    width: 100%;
     font-family: inherit;
     font-size: 35px;
     color: var(--primary-color);
@@ -37,11 +43,13 @@
 }
 
 .section-01-info ul{
+    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 0;
+    padding-left: 40px;
+    margin: 0;
     height: 80px;
 }
 
@@ -57,10 +65,12 @@
 
 
 .section-01-button{
+    width: 200px;
+    text-align: center;
     position: relative;
-    left: 270px;
     top: 20px;
-    transform: translate(50%, 50%);
+    margin: 0;
+    margin-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
     background: none;
@@ -68,8 +78,6 @@
     border: 3px solid var(--second-color);
     border-radius: 10px;
     padding: 15px 20px;
-    line-height: 2.5em;
-    text-align: center;
     transition: box-shadow .8s cubic-bezier(0.45, 0.05, 0.55, 0.95);
     text-decoration: none;
 }
@@ -77,6 +85,7 @@
 .section-01-button:hover{
     box-shadow: inset 0 -5em var(--second-color); 
     cursor: pointer;
+    color: black;
 }
 
 

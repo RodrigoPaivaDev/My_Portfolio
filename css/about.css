@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.section-02-container-about{
-    text-align: center;
-}
+
 
 .section-02-text-about{
     position: relative;
@@ -15,6 +13,12 @@
     font-size: 20px;
     color: var(--primary-color);
     text-align: justify;
-    padding: 0 150px;
+    width: 40%;
+    border-radius: 4px;
 }
 
+
+.section-02-container-about{
+    display: flex;
+    justify-content: center;
+}
