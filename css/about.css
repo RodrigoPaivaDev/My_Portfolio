@@ -23,13 +23,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    .section-02-text-about{
-        width: 90%;
+    .section-02-text-about{   
+        width: 100%;
     }
+
 }
 
 @media screen and (max-height: 420px) {
     .section-02{
         height: 170vh;
     }
+
+    
 }

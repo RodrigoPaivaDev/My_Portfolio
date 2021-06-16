@@ -22,9 +22,8 @@
     justify-content: center;
     align-items: center;
 }
-
 .redes-icons img{
-    padding: 0 20px;
+    margin:0  20px;
 }
 
 hr{
@@ -33,6 +32,6 @@ hr{
 
 @media screen and (max-width: 700px) {
     .footer{
-        padding-top: 30px;
+        padding-top: 50px;
     }
 }

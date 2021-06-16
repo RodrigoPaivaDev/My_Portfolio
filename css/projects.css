@@ -10,21 +10,21 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    max-width: auto;
+    max-width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 60%;
     height: 100vh;
 }
 
 .section-04 .project-img{
     width: 400px;
     height: 240px;
-    margin: 20px;
+    margin: 0 20px;
     border-radius: 6px;
     box-shadow: inset 2px 2px 5px black, 2px 2px 5px var(--section-color-01);
 }
@@ -33,44 +33,26 @@
     opacity: .5;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1320px) {
     .section-04 .section-04-wrapper-projects{
-        display: flex;
         flex-direction: column;
-        top: 10%;
+        flex-wrap: nowrap;
+        margin-top: 200px;
+        
     }
-
-    .section-04{
-        height: 150vh;
-    }
-
     .section-04 .project-img{
-        width: 300px;
-        height: 175px;
+        margin-top: 50px;
     }
-}
-
-@media screen and (min-width: 700px) {
-    .section-04 .section-04-wrapper-projects{
-        display: flex;
-        flex-direction: row;
-        top: 10%;
-    }
-    .section-04{
-        height: 100vh;
-    }
-}
-
-@media screen and (min-width: 769px) {
     .section-04{
         height: 150vh;
     }
+
 }
 
-@media screen and (max-height: 768px) {
-    .section-04{
-        height: 200vh;
+@media screen and (max-width: 550px) {
+    .section-04 .project-img{
+        width: 340px;
+        height: 200px;
     }
 }
 
