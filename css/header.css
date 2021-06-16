@@ -1,7 +1,7 @@
 .navbar{
     background-color: var(--header-color);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; /*centralizar elemento*/
     position: fixed; 
     top: 0;
@@ -12,7 +12,6 @@
 .hamburguer{
     width: 30px;
     height: 30px;
-
     background-color: transparent;
     border-radius: 5px;
 
@@ -21,6 +20,7 @@
     cursor: pointer;
 
     display: none;
+    box-sizing: border-box;
 }
 
 .hamburguer:after{
@@ -54,9 +54,9 @@
 .logo a{
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 5px;
     color: var(--second-color);
-    font-size: 15px;
+    font-size: 10px;
     letter-spacing: 3px;
     text-decoration: none;
     width: 200px;
@@ -91,16 +91,18 @@
 
     .navbar{
         height: 80px;
+        top: 0;
+        width: 100%;
     }
 
     .hamburguer{
-        display: block;
+        display: inline-block;
         z-index: 999;
+        margin-right: 20px;
     }
 
 
-    .menu
-    {
+    .menu{
         position: fixed;
         top: 0;
         right: -100%;
