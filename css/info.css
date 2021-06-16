@@ -11,12 +11,11 @@
 .section-01-info{
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     position: relative;
     top: 20%;
     left: 10%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -29,6 +28,7 @@
 }
 
 .section-01-info h3 em{
+    width: 100%;
     font-style: normal;
     color: var(--second-color);
 }
@@ -38,6 +38,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+  
     justify-content: space-between;
     padding-left: 40px;
     margin: 0;
@@ -79,5 +80,19 @@
     color: black;
 }
 
+@media screen and (max-width: 450px) {
+    .section-01-info{
+        width: 300px;
+        text-align: center;
+    }
 
+    .section-01-info ul{
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .section-01-button{
+        left: 15%;
+    }
+}
 

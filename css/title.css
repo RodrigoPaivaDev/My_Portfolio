@@ -6,10 +6,11 @@
     top: 100px;
     opacity: 10%;
     text-align: center;
+    width: auto;
 }
 
 @media screen and (max-width: 768px) {
     .title{
-        font-size: 100px;
+        font-size: 120px;
     }
 }

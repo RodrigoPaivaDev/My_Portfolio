@@ -10,10 +10,10 @@
     position: relative;
     top: 100px;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: var(--primary-color);
     text-align: justify;
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -24,7 +24,8 @@
 
 @media screen and (max-width: 768px) {
     .section-02-text-about{   
-        width: 100%;
+        width: 80%;
+        font-size: 4.5vw;
     }
 
 }

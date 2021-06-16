@@ -17,18 +17,22 @@
         <link rel="stylesheet" href="css/projects.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/footer.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <!--navigation bar-->
         <header>
-            <h1 class="logo"><a href="#info"> <span>&lt; / </span> RODRIGO PAIVA <span>&gt;</span> </h1>
-            <nav class="navigation-menu">
-                <a class="menu" href="#about">SOBRE</a>
-                <a class="menu" href="#skills" lang="en">SKILLS</a>
-                <a class="menu" href="#projects">PROJETOS</a>
-                <a class="menu" href="#contact">CONTATO</a>
-            </nav>
+            <div class="navbar">
+                <h1 class="logo"><a href="#info"> <span>&lt;/</span> RODRIGO PAIVA <span>&gt;</span> </h1>
+                <div class="hamburguer active"></div>
+                    <nav class="menu active">
+                        <a class="item-menu" href="#about">SOBRE</a>
+                        <a class="item-menu" href="#skills" lang="en">SKILLS</a>
+                        <a class="item-menu" href="#projects">PROJETOS</a>
+                        <a class="item-menu" href="#contact">CONTATO</a>
+                    </nav>
+            </div>
         </header>
 
         <!--info section-->
@@ -51,7 +55,7 @@
         <section class="section-02" id="about">
             <h2 class="title">Sobre</h2>
             <div class="section-02-container-about">
-                <p class="section-02-text-about">Aos 17 anos, descobri minha paixão por códigos de computador, quando descobri a tecnologia do HTML e CSS. Desde então, venho me aprimorando nesse ramo de desenvolvimento front end, atualmente, estudando sobre JavaScript e como essa tecnologia pode ser de grande influência dentro de um site.<br><br>Além disso, eu também desenvolvo jogos usando a Unity Engine, mas faço isso apenas por hobby e aprender um pouco sobre programação.</p>
+                <p class="section-02-text-about">Aos 17 anos, descobri minha paixão por códigos de computador, quando descobri a tecnologia do HTML e CSS. Desde então, venho me aprimorando nesse ramo de desenvolvimento front end, atualmente, estudando sobre JavaScript e como essa tecnologia pode ser de grande influência dentro de um site.<br>Além disso, eu também desenvolvo jogos usando a Unity Engine, mas faço isso apenas por hobby e aprender um pouco sobre programação.</p>
             </div>
         </section>
 
@@ -96,14 +100,17 @@
             <h2 class="title">Projetos</h2>
             <div class="section-04-wrapper-projects">
                 <article>
+                    <h3 class="name-project">Tela de cotações Santander</h3>
                     <a href="#"><img class="project-img" src="assets/santanderProject.png" alt="Logo Santander FullStack Bootcamp"></a>
                 </article>
 
                 <article>
+                    <h3 class="name-project">Meu Portfolio</h3>
                     <a href="#"><img class="project-img" src="assets/portfolioProject.png" alt="Portfolio pessoal"></a>
                 </article>
 
                 <article>
+                    <h3 class="name-project">Protótipo de Fall Guys</h3>
                     <a href="#"><img class="project-img" src="assets/portfolioProject.png" alt="Logo Santander FullStack Bootcamp"></a>
                 </article>
                 
@@ -133,6 +140,6 @@
         </footer>
                 
            
-
+        <script src="js/script.js"></script>
     </body>
 </html>

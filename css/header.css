@@ -1,28 +1,74 @@
-header{
+.navbar{
     background-color: var(--header-color);
     display: flex;
     justify-content: space-around;
     align-items: center; /*centralizar elemento*/
     position: fixed; 
+    top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 999;
+}
+
+.hamburguer{
+    width: 30px;
+    height: 30px;
+
+    background-color: transparent;
+    border-radius: 5px;
+
+
+    position: relative;
+    cursor: pointer;
+
+    display: none;
+}
+
+.hamburguer:after{
+    content: "";
+
+    position: absolute;
+    top: 35%;
+    left: 15%;
+
+    width: 70%;
+    height: 10%;
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+
+.hamburguer:before{
+    content: "";
+
+    position: absolute;
+    top: 55%;
+    left: 15%;
+
+    width: 70%;
+    height: 10%;
+    border-radius: 5px;
+
+    background-color: #fff;
 }
 
 .logo a{
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    margin-left: 10px;
     color: var(--second-color);
     font-size: 15px;
     letter-spacing: 3px;
     text-decoration: none;
-}
-
-.navigation-menu{
-    text-align: right;
+    width: 200px;
 }
 
 .menu{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu .item-menu {
     font-size: 20px;
     height: 60px;
     text-decoration: none;
@@ -35,11 +81,47 @@ header{
   
 }
 
-.menu:hover{
+.menu a:hover{
     border-bottom: 2px solid var(--second-color);
     padding: 0 20px;
     
 }
 
+@media screen and (max-width: 767px) {
 
+    .navbar{
+        height: 80px;
+    }
+
+    .hamburguer{
+        display: block;
+        z-index: 999;
+    }
+
+
+    .menu
+    {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 110vh;
+
+        background-color: var(--header-color);
+        width: 100%;
+
+        margin: 0;
+        padding: 100px 50px;
+        flex-direction: column;
+
+        transition: .5s ease;
+
+    }
+
+    .menu.active{
+        right: 0;
+        
+    }
+
+
+}
 
