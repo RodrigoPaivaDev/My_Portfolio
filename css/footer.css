@@ -32,6 +32,12 @@ hr{
 
 @media screen and (max-width: 700px) {
     .footer{
-        padding-top: 50px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer{
+        padding-top: 60px;
     }
 }

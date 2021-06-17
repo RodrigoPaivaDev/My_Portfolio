@@ -30,7 +30,7 @@
     top: 35%;
     left: 15%;
 
-    width: 70%;
+    width: 80%;
     height: 10%;
     border-radius: 5px;
 
@@ -42,9 +42,9 @@
 
     position: absolute;
     top: 55%;
-    left: 15%;
+    left: 30%;
 
-    width: 70%;
+    width: 80%;
     height: 10%;
     border-radius: 5px;
 
@@ -56,7 +56,7 @@
     align-items: center;
     margin-left: 5px;
     color: var(--second-color);
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-decoration: none;
     width: 200px;
