@@ -1,0 +1,76 @@
+
+#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+    
+}
+
+
+#popupDevWeek{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    
+}
+
+#popupDevWeek.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+   
+}
+
+
+#popupPort{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+#popupPort.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+}
+
+
+
+#popupGame{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+#popupGame.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+}

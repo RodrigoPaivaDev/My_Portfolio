@@ -3,7 +3,9 @@
     height: 100vh;
     text-align: center;
     box-sizing: border-box;
+    transition: 0.5s;
 }
+
 
 
 .section-04 .section-04-wrapper-projects{
@@ -33,6 +35,7 @@
     margin: 0 20px;
     border-radius: 6px;
     box-shadow: inset 2px 2px 5px black, 2px 2px 5px var(--section-color-01);
+    cursor: pointer;
 }
 
 .project-img:hover{

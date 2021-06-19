@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/skills.css">
         <link rel="stylesheet" href="css/title.css">
         <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/popup.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/footer.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -26,7 +27,7 @@
             <div class="navbar">
                 <h1 class="logo"><a href="#info"> <span>&lt;/</span> RODRIGO PAIVA <span>&gt;</span></a></h1>
                 <div class="hamburguer active"></div>
-                    <nav class="menu active">
+                    <nav class="menu">
                         <a class="item-menu" href="#about">SOBRE</a>
                         <a class="item-menu" href="#skills" lang="en">SKILLS</a>
                         <a class="item-menu" href="#projects">PROJETOS</a>
@@ -98,23 +99,47 @@
         <!--Projects section-->
         <section class="section-04" id="projects">
             <h2 class="title">Projetos</h2>
-            <div class="section-04-wrapper-projects">
-                <article>
-                    <h3 class="name-project">Tela de cotações Santander</h3>
-                    <a href="#"><img class="project-img" src="assets/santanderProject.png" alt="Logo Santander FullStack Bootcamp"></a>
-                </article>
-
-                <article>
-                    <h3 class="name-project">Meu Portfolio</h3>
-                    <a href="#"><img class="project-img" src="assets/portfolioProject.png" alt="Portfolio pessoal"></a>
-                </article>
-
-                <article>
-                    <h3 class="name-project">Protótipo de Fall Guys</h3>
-                    <a href="#"><img class="project-img" src="assets/portfolioProject.png" alt="Logo Santander FullStack Bootcamp"></a>
-                </article>
+            <div class="section-04-wrapper-projects" id="blur"> 
                 
+                    <article>
+                        <h3 class="name-project">Tela de cotações Santander</h3>
+                        <a href="#popupDevWeek" onclick="toggleDevWeek()"><img class="project-img" src="assets/santanderProject.png" alt="Logo Santander FullStack Bootcamp"></a>
+                    </article>
+                
+            
+
+                    <article>
+                        <h3 class="name-project">Meu Portfolio</h3>
+                        <a href="#popupPort" onclick="togglePort()"><img class="project-img" src="assets/portfolioProject.png" alt="Portfolio pessoal"></a>
+                    </article>
+
+
+
+                    <article>
+                        <h3 class="name-project">Protótipo de Fall Guys</h3>
+                        <a href="#popupGame" onclick="toggleGame()"><img class="project-img" src="assets/portfolioProject.png" alt="Logo Santander FullStack Bootcamp"></a>
+                    </article>
+                    
             </div>
+
+            <article id="popupDevWeek">
+                <h3 class="name-project">Desenvolvido durante a semana dev</h3>
+                <a href="#popupDevWeek" onclick="toggleDevWeek()">voltar</a>
+            </article>
+
+
+            <article id="popupPort">
+                <h3 class="name-project">Meu Portfolio</h3>
+                <a href="#popupPort" onclick="togglePort()">voltar</a>
+            </article>
+
+
+            <article id="popupGame">
+                <h3 class="name-project">Protótipo de Fall Guys</h3>
+                <a href="#popupGame" onclick="toggleGame()">Voltar</a>
+            </article>
+            
+
         </section>
 
         <section class="section-05" id="contact">
