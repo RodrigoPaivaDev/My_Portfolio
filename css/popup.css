@@ -1,28 +1,48 @@
 
 #blur.active{
-    filter: blur(20px);
+    filter: blur(40px);
     pointer-events: none;
     user-select: none;
     
 }
 
 
-#popupDevWeek{
+.popupCard{
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
+    max-width: 900px;
+    height: auto;
     padding: 50px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .30);
+    background: var(--primary-color);
     visibility: hidden;
     opacity: 0;
     transition: .5s;
-    
+    border-radius: 8px;
 }
 
-#popupDevWeek.active{
+.desc-project{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.popupCard h3{
+    color: var(--section-color-01); 
+}
+
+.popupCard a{
+    background: var(--section-color-01);
+    text-decoration: none;
+    color: var(--second-color);
+    padding: 10px;
+    border-radius: 6px;
+    font-family: inherit;
+    margin: 0 15px;
+}
+
+.popupCard.active{
     top: 50%;
     visibility: visible;
     opacity: 1;
@@ -31,46 +51,16 @@
 }
 
 
-#popupPort{
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 50px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s;
-}
-
-#popupPort.active{
-    top: 50%;
-    visibility: visible;
-    opacity: 1;
-    transition: .5s;
-}
 
 
+@media screen and (max-width: 550px) {
+    .popupCard{
+        width: 320px;
+        text-align: justify;
+    }
 
-#popupGame{
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 50px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s;
-}
+    .popupCard a{
+        margin: 0 12px;
+    }
 
-#popupGame.active{
-    top: 50%;
-    visibility: visible;
-    opacity: 1;
-    transition: .5s;
 }

@@ -24,8 +24,10 @@
 }
 
 .name-project{
-    color: var(--section-color-01);
-    padding-bottom: 10px;
+    color: var(--second-color);
+    background: var(--section-color-01);
+    padding: 5px;
+    border-radius: 6px;
     
 }
 
