@@ -13,6 +13,14 @@
     height: 500px;
     width: 100%;
 }
+.contact h3{
+    margin: 0;
+    margin-top: 50px;
+    color: var(--second-color);
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+}
 
 .contact input, textarea{
     max-width: 500px;
@@ -37,6 +45,9 @@
         max-width: 300px;
         font-size: 15px;
     }
+    .contact{
+        margin-top: 50px;
+    }
 }
 
 
@@ -45,5 +56,6 @@
         height: 200vh;
     }
 
-
+    
+ 
 }

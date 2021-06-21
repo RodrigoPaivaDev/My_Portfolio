@@ -24,8 +24,9 @@
 
 @media screen and (max-width: 768px) {
     .section-02-text-about{   
-        width: 80%;
-        font-size: 4.5vw;
+        width: 100%;
+        font-size: 5vw;
+        text-align: justify;
     }
 
 }
