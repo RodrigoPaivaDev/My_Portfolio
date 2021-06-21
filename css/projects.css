@@ -23,12 +23,15 @@
     height: 100vh;
 }
 
+.name-project span{
+    border-bottom: 3px solid var(--second-color);
+    padding-bottom: 5px;
+}
+
 .name-project{
-    color: var(--second-color);
-    background: var(--section-color-01);
-    padding: 5px;
+    color: var(--section-color-01);
+    padding-bottom: 5px;
     margin: 20px;
-    border-radius: 6px;
     
 }
 

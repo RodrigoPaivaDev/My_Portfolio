@@ -1,59 +1,50 @@
 .section-05{
     background-color: var(--section-color-01);
-    height: 100vh;
+    height: 500px;
     box-sizing: border-box;
 }
 
 .contact{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 15%;
-    height: 500px;
-    width: 100%;
-}
-.contact h3{
-    margin: 0;
-    margin-top: 50px;
-    color: var(--second-color);
-    text-align: center;
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
+    top: 40%;
 }
 
-.contact input, textarea{
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px 50px;
+.contact p{
+    font-size: 20px;
 }
 
-.contact input, textarea{
-    background: none;
+.contact p a{
+    text-decoration: none;
     color: var(--second-color);
-    text-align: center;
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 3px solid var(--header-color);
+}
+
+.contact span{
+    border-bottom: 3px solid var(--second-color);
+}
+
+.contact p:first-child{
+    border-right: 2px solid var(--second-color);
 }
 
 @media screen and (max-width: 640px) {
-    .contact input, textarea{
-        max-width: 300px;
-        font-size: 15px;
-    }
     .contact{
-        margin-top: 50px;
+        flex-direction: column;
+        
     }
+
+    .contact p:first-child{
+        border-right: none;
+    }
+   
+   
 }
 
 
 @media screen and (max-height: 420px) {
     .section-05{
-        height: 200vh;
+        height: 100vh;
     }
 
     
