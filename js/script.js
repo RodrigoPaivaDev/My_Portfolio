@@ -12,9 +12,13 @@ $(document).ready(function () {
   
 });
 
-function toggleDevWeek(){
+function blur(){
     var blur = document.getElementById('blur');
     blur.classList.toggle('active');
+}
+
+function toggleDevWeek(){
+    blur();
 
     var popupDevWeek = document.getElementById('popupDevWeek');
     popupDevWeek.classList.toggle('active');
@@ -23,8 +27,7 @@ function toggleDevWeek(){
 
 
 function togglePort(){
-    var blur = document.getElementById('blur');
-    blur.classList.toggle('active');
+    blur();
     
     var popupPort = document.getElementById('popupPort');
     popupPort.classList.toggle('active');
@@ -33,8 +36,7 @@ function togglePort(){
 
 
 function toggleGame(){
-    var blur = document.getElementById('blur');
-    blur.classList.toggle('active');
+    blur();
 
     var popupGame = document.getElementById('popupGame');
     popupGame.classList.toggle('active');
