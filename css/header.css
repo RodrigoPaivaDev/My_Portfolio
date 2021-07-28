@@ -2,6 +2,7 @@
     background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
+    padding: 0 180px;
     align-items: center; /*centralizar elemento*/
     position: fixed; 
     top: 0;
@@ -93,6 +94,7 @@
         height: 60px;
         top: 0;
         width: 100%;
+        padding: 0;
     }
 
     .hamburguer{
