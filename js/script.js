@@ -41,3 +41,10 @@ function toggleGame(){
     var popupGame = document.getElementById('popupGame');
     popupGame.classList.toggle('active');
 }
+
+function toggleAlura(){
+    blur();
+
+    var popupAlurakut = document.getElementById('popupAlurakut');
+    popupAlurakut.classList.toggle('active');
+}
